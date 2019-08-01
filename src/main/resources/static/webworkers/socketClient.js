@@ -38,7 +38,7 @@ function connect(clustername) {
             ;
         });
         stompClient.send("/app/connect", {}, JSON.stringify({
-            'uuid': "CLUSTER_NAME",
+            'uuid': "8dc53df5-703e-49b3-8670-b1c468f47f1f",
             'cClass': null,
             'content': clustername
         }));

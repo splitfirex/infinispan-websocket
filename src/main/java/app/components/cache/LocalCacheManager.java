@@ -28,7 +28,6 @@ public class LocalCacheManager {
     private CacheListener cacheListener;
 
     public void initCache(String clustename) {
-        //cacheManager = new DefaultCacheManager(LocalCacheManager.class.getResourceAsStream("/weatherapp-infinispan.xml"));
         cacheCreated = true;
         cacheManager = new DefaultCacheManager(
                 new GlobalConfigurationBuilder().globalJmxStatistics().allowDuplicateDomains(true)
