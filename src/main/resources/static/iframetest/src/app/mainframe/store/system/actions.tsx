@@ -1,5 +1,4 @@
 import { UPDATE_SESSION, PageEnum, CHANGE_VIEW, Session } from './types';
-import { func } from "prop-types";
 
 export function updateSession(newSession: Session) {
   return {

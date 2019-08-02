@@ -9,13 +9,17 @@
     "@types/react": "16.8.24",
     "@types/react-dom": "16.8.5",
     "@types/react-redux": "^7.1.1",
+    "bootstrap": "^4.3.1",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.10",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
     "react-scripts": "3.0.1",
+    "react-tabtab": "^2.0.0",
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
+    "styled-components": "^4.0.0",
     "typescript": "3.5.3"
   },
   "scripts": {

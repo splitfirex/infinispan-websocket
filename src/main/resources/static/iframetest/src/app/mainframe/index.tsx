@@ -4,8 +4,8 @@ import { AppState } from "./store";
 
 import { SystemState } from "./store/system/types";
 import { updateSession } from "./store/system/actions";
-import CenterContainer from './containers/centerContainer'
-
+import { CenterContainer } from "./containers/centerContainer";
+import TopContainer from "./containers/topContainer";
 
 interface AppProps {
   updateSession: typeof updateSession;
@@ -30,7 +30,8 @@ class App extends React.Component<AppProps> {
   render() {
     return (
       <div className="parent">
-      <CenterContainer></CenterContainer>
+        <TopContainer/>
+        <CenterContainer />
       </div>
     );
   }

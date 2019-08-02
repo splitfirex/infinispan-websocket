@@ -1,6 +1,5 @@
 import React from 'react';
 import { Provider } from "react-redux";
-import logo from './logo.svg';
 import Mainframe from './mainframe'
 import configureStore from './mainframe/store'
 import './App.css';
